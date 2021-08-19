@@ -4,6 +4,12 @@
  *  representation as an object. Then add all the other
  *  fish to the collection.
  */
+
+// This is new code. Add this.
+export const getFish = () => {
+    return fishCollection
+};
+
 const fishCollection = [
   {
     name: "Three-Eyed Fish",
@@ -47,7 +53,7 @@ const fishCollection = [
     image: "blue.jpg",
     species: "Clown",
     length: 3,
-    water: "Salt-water",
+    waterType: "Salt-water",
     harvestlocation: "Florida"
 },
 {
@@ -98,6 +104,77 @@ const fishCollection = [
     harvestLocation: "Massachusetts "
     
 },
-
+ {
+    name: "Beast",
+    food: "Shrimp",
+    image: "missing.jpg",
+    species: "Blobfish",
+    length: 10,
+    waterType: "salt",
+    harvestLocation: "Florida",
+},
+{
+    name: "Bruce",
+    food: "not fish",
+    image: "bruce.jpg",
+    species: "greatWhite",
+    length: 130,
+    waterType: "salt",
+    harvestLocation: "Sydney"
+},
+{
+    name: "Gordon",
+    food: "Krill",
+    image: "pink.jpg",
+    species: "Blowfish",
+    length: 3,
+    waterType: "Salt",
+    harvestLocation: "Asia"
+},
+{
+    name: "Bloat",
+    food: "shrimp",
+    image: "yellow.jpg",
+    species: "Blow Fish",
+    length: 5,
+    waterType: "Salt",
+    harvestLocation: "Mexico"
+},
+{
+    name: "Marlin",
+    food: "Mealworms",
+    image: "orange.jpg",
+    species: "clownfish",
+    length: 4,
+    waterType: "Saltwater",
+    harvestLocation: "Bahamas"
+},
+{
+    name: "Ted",
+        food: "Perch",
+        image: ".jpeg",
+        species: "Tiger Trout",
+        length: 14,
+        waterType: "Fresh",
+        harvestLocation: "North America"
+},
+{
+    name: "Blob Marley",
+    food: "mollusks",
+    image: "gray.jpg",
+    species: "Blobfish",
+    length: 8,
+    waterType: "Salt",
+    harvestLocation: "Australia"
+},
+{
+    name: "nile tilapia",
+    food:"krill",
+    image: "silverish",
+    species:"tilapia",
+    length:8,
+    watertype: "fresh",
+    harvestLocation: "North Africa",
+}
 
 ];
