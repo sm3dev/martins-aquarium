@@ -3,6 +3,11 @@ import { FishList } from "./FishList.js";
 
 FishList();
 
+// import the QuoteList functino from QuoteList.js
+import { QuoteList } from "./quotes/QuoteList.js";
+
+QuoteList();
+
 // set a variable equal to the fish from FishData
 // const allTheFish = getFish();
 
